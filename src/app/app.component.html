@@ -1,4 +1,38 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
+<p id="Candidates">
+  Candidates
 </p>
+
+<div>
+  <div>
+    <label >Male </label>
+    <input id="male" type="checkbox"/>
+
+
+    <label> Female </label>
+    <input  type="checkbox"/>
+
+  </div>
+
+
+  <label id="new_candidates" >Add new Candidates </label>
+
+  <form id="Candidates_form">
+
+
+    <div>
+      <input id="fname" type="textbox" name="firstName">
+
+      <input type="text" name="lastName">
+    </div>
+    <div>
+      <input type="text" name="email">
+    </div>
+    <div>
+      <input  type="radio" name="sex"> <label id="femaleRadio"> female </label>
+      <input   type="radio" name="sex"> <label id="maleRadio"> male </label>
+
+      <input id ="submit" type="submit" >
+
+    </div>
+
+  </form>
